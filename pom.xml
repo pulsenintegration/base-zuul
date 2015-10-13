@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>org.devnull</groupId>
-    <artifactId>devnull-parent</artifactId>
+    <groupId>com.confluex</groupId>
+    <artifactId>base-zuul-parent</artifactId>
     <version>1.2-SNAPSHOT</version>
     <packaging>pom</packaging>
-    <name>DevNull: Parent POM</name>
-    <url>https://github.com/mcantrell/devnull</url>
+    <name>Base Zuul: Parent POM</name>
+    <url>https://github.com/Confluex/base-zuul</url>
     <parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
@@ -14,10 +14,22 @@
         <relativePath />
     </parent>
     <scm>
-        <connection>scm:git:git@github.com:mcantrell/devnull.git</connection>
-        <url>scm:git:git@github.com:mcantrell/devnull.git</url>
-        <developerConnection>scm:git:git@github.com:mcantrell/devnull.git</developerConnection>
+        <connection>scm:git:git@github.com:Confluex/base-zuul.git</connection>
+        <url>scm:git:git@github.com:Confluex/base-zuul.git</url>
+        <developerConnection>scm:git:git@github.com:Confluex/base-zuul.git</developerConnection>
     </scm>
+    <distributionManagement>
+        <repository>
+            <name>Confluex Public Releases</name>
+            <id>public-releases</id>
+            <url>http://dev.confluex.com/nexus/content/repositories/public-releases</url>
+        </repository>
+        <snapshotRepository>
+            <name>Confluex Public Snapshots</name>
+            <id>public-snapshots</id>
+            <url>http://dev.confluex.com/nexus/content/repositories/public-snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
     <licenses>
         <license>
             <name>The Apache Software License, Version 2.0</name>
@@ -31,13 +43,18 @@
             <name>Mike Cantrell</name>
             <email>mike.humansonly@devnull.org</email>
         </developer>
+        <developer>
+            <id>psmith</id>
+            <name>Paul Smith</name>
+            <email>psmith.humansonly@confluex.com</email>
+        </developer>
     </developers>
     <modules>
-        <module>devnull-util</module>
-        <module>devnull-error</module>
-        <module>devnull-orm</module>
-        <module>devnull-security</module>
-        <module>devnull-web-archetype</module>
+        <module>zuul-util</module>
+        <module>zuul-error</module>
+        <module>zuul-orm</module>
+        <module>zuul-security</module>
+        <module>zuul-web-archetype</module>
     </modules>
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

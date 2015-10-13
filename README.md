@@ -1,14 +1,12 @@
-[![Build Status](https://secure.travis-ci.org/mcantrell/devnull.png?branch=master)](http://travis-ci.org/mcantrell/devnull)
+[![Build Status](https://secure.travis-ci.org/confluex/base-zuul.png?branch=master)](http://travis-ci.org/confluex/base-zuul)
 
-# DevNull.org Shared Code Repository
+# base_zuulg Shared Code Repository
 
-Internal API code for my personal projects.
-
-[View the wiki pages for documentation](https://github.com/mcantrell/devnull/wiki/)
+Internal API code for zuul projects.
 
 # License
 
-   Copyright 2012 Mike Cantrell
+   Copyright 2015 Confluex
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
