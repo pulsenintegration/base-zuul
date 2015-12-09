@@ -11,7 +11,7 @@
 	<description>Zuul starter webaapp with Spring MVC, JPA, Groovy and Twitter Bootstrap</description>
     <parent>
         <groupId>com.confluex</groupId>
-        <artifactId>base-zuul-parent</artifactId>
+        <artifactId>base-zuul</artifactId>
         <version>1.2-SNAPSHOT</version>
     </parent>
 	<build>

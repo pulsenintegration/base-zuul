@@ -5,7 +5,7 @@
     <artifactId>zuul-security</artifactId>
     <name>Zuul: Security</name>
     <parent>
-        <artifactId>base-zuul-parent</artifactId>
+        <artifactId>base-zuul</artifactId>
         <groupId>com.confluex</groupId>
         <version>1.2-SNAPSHOT</version>
     </parent>
