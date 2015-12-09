@@ -4,7 +4,7 @@
 
 	<groupId>com.confluex</groupId>
 	<artifactId>zuul-web-archetype</artifactId>
-	<version>1.2-SNAPSHOT</version>
+	<version>1.2</version>
 	<packaging>maven-archetype</packaging>
 
 	<name>Zuul: Web Archetype</name>
@@ -12,7 +12,7 @@
     <parent>
         <groupId>com.confluex</groupId>
         <artifactId>base-zuul</artifactId>
-        <version>1.2-SNAPSHOT</version>
+        <version>1.2</version>
     </parent>
 	<build>
 	<extensions>
