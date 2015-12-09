@@ -1,6 +1,6 @@
 [![Build Status](https://secure.travis-ci.org/confluex/base-zuul.png?branch=master)](http://travis-ci.org/confluex/base-zuul)
 
-# base_zuulg Shared Code Repository
+# base_zuul Shared Code Repository
 
 Internal API code for zuul projects.
 
