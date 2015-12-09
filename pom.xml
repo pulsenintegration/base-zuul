@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.confluex</groupId>
     <artifactId>base-zuul</artifactId>
-    <version>1.2</version>
+    <version>1.3-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Base Zuul: Parent POM</name>
     <url>https://github.com/Confluex/base-zuul</url>
@@ -17,7 +17,7 @@
         <connection>scm:git:git@github.com:Confluex/base-zuul.git</connection>
         <url>scm:git:git@github.com:Confluex/base-zuul.git</url>
         <developerConnection>scm:git:git@github.com:Confluex/base-zuul.git</developerConnection>
-      <tag>base-zuul-1.2</tag>
+      <tag>HEAD</tag>
   </scm>
     <distributionManagement>
         <repository>
