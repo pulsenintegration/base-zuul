@@ -7,7 +7,7 @@
     <parent>
         <artifactId>base-zuul</artifactId>
         <groupId>com.confluex</groupId>
-        <version>1.2</version>
+        <version>1.2-SNAPSHOT</version>
     </parent>
     <dependencies>
         <!-- Spring -->
