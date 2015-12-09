@@ -7,12 +7,12 @@
     <packaging>pom</packaging>
     <name>Base Zuul: Parent POM</name>
     <url>https://github.com/Confluex/base-zuul</url>
-    <parent>
+    <!--<parent>
         <groupId>org.sonatype.oss</groupId>
         <artifactId>oss-parent</artifactId>
         <version>7</version>
         <relativePath />
-    </parent>
+    </parent>-->
     <scm>
         <connection>scm:git:git@github.com:Confluex/base-zuul.git</connection>
         <url>scm:git:git@github.com:Confluex/base-zuul.git</url>
